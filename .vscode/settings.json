@@ -3,5 +3,5 @@
         "iostream": "cpp"
     },
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "/usr/bin/python3"
+    "python.pythonPath": "C:\\Users\\Ian\\AppData\\Local\\Continuum\\Anaconda3\\python.exe"
 }
