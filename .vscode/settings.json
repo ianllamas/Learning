@@ -3,5 +3,5 @@
         "iostream": "cpp"
     },
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+    "python.pythonPath": "/usr/bin/python3"
 }
