@@ -1,0 +1,59 @@
+/*<!DOCTYPE html>
+/*<html lang="en">
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+  
+  background: whitesmoke;
+  text-align: center;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1  {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+img{
+  border-radius: 1000px;
+}
+
+ul {
+ list-style: none; 
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+li {
+  margin: 48px 18px 0 0;
+}
+
+a {
+ color: gold;
+ text-decoration: none;
+ font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+  width: 40%;
+  margin: 0 auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.subtitle {
+  border: 2px solid #151515;
+  text-align: center;
+  color: lightslategrey;
+  padding-bottom: 32px;
+}
