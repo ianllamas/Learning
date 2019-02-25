@@ -31,7 +31,7 @@ e4=Entry(window,textvariable=isbn_text)
 e4.grid(row=1,column=3)
 
 list1=ListBox(windows, height=6, width=35)
-list1.grid(row=2, column=0, columnspan=2)
+list1.grid(row=2, column=0,rowspan=6, columnspan=2)
 
 sb1 = scrollbar(window)
 sb1.grid(row=2,column=2,rowspan=6)
@@ -41,6 +41,21 @@ sb1.configure(command=list1.yview)
 
 b1=Button(window,text="View All", width=12)
 b1.grid(row=2,column=3)
+
+b1=Button(window,text="Search Entry", width=12)
+b1.grid(row=3,column=3)
+
+b1=Button(window,text="Add Entry", width=12)
+b1.grid(row=4,column=3)
+
+b1=Button(window,text="Update Selected", width=12)
+b1.grid(row=5,column=3)
+
+b1=Button(window,text="Delete Selected", width=12)
+b1.grid(row=6,column=3)
+
+b1=Button(window,text="Close", width=12)
+b1.grid(row=7,column=3)
 
 windows.mainloop()
 
