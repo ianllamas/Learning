@@ -11,4 +11,5 @@ person.name = 'John';
 let selection = 'name';
 person[selection] = 'Mary';
 
-console.log(pseron.name);
+console.log(person.name);
+
