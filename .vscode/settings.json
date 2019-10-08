@@ -3,9 +3,5 @@
         "iostream": "cpp"
     },
     "python.linting.pylintEnabled": true,
-<<<<<<< HEAD
-    "python.pythonPath": "/usr/bin/python3"
-=======
-    "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Anaconda3_64\\python.exe"
->>>>>>> 89191e1b387d1632194ff471a0d90f6c08d0b724
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe"
 }
