@@ -5,21 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "name": "Python: Current File",
+            "type": "python",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/app.js"
-        },
-        {
-            "name": "(Windows) Launch",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "enter program name, for example ${workspaceFolder}/a.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true
+            "program": "${file}",
+            "console": "integratedTerminal"
         }
     ]
 }
